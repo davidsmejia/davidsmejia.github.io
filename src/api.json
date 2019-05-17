@@ -1,0 +1,85 @@
+{
+  "sprites": {
+    "david" : {
+      "width": 14,
+      "height": 14,
+      "background": "#b293fb",
+      "pixels": [
+        null, null, null, null, null, null, null, null, null, null, null, null, null, null,
+        null, null, null, null, null, null, null, null, null, null, null, null, null, null,
+        null, null, null, null, null, null, null, null, null, null, null, null, null, null,
+        null, null, null, null, "#4e2d05", "#4e2d05", "#4e2d05", "#4e022d", "#4e022d", null, null, null, null, null,
+        null, null, null, "#4e2d05", "#4e2d05", "#4e2d05", "#4e022d", "#4e022d", null, null, null, null, null, null,
+        null, null, null, "#4e2d05", "#4e2d05", "#cb741b", "#cb741b", "#cb741b", null, null, null, null, null, null,
+        null, null, null, "#4e022d", "#cb741b", "#cb741b", "#cb741b", "#cb741b", null, null, null, null, null, null,
+        null, null, null, "#4e022d", "#cb741b", "#cb741b", "#cb741b", "#cb741b", null, null, null, null, null, null,
+        null, null, null, null, "#cb741b", "#cb741b", "#cb741b", "#cb741b", null, null, null, null, null, null,
+        null, null, null, null, "#cb741b", "#8d500f", "#8d500f", null, null, null, null, null, null, null,
+        null, null, null, "#ec2f1a", "#ec2f1a", "#ec2f1a", "#ec2f1a", "#ec2f1a", "#ec2f1a", null, null, null, null, null,
+        null, null, "#ec2f1a", "#ec2f1a", "#ec2f1a", "#ec2f1a", "#ec2f1a", "#ec2f1a", "#ec2f1a", "#ec2f1a", null, null, null, null,
+        null, null, "#ec2f1a", "#172ffb", "#172ffb", "#172ffb", "#172ffb", "#172ffb", "#172ffb", "#ec2f1a", null, null, null, null,
+        null, null, "#ec2f1a", "#ec2f1a", "#ec2f1a", "#ec2f1a", "#ec2f1a", "#ec2f1a", "#ec2f1a", "#ec2f1a", null, null, null, null,
+        null, null, "#ec2f1a", "#ec2f1a", "#ec2f1a", "#ec2f1a", "#ec2f1a", "#ec2f1a", "#ec2f1a", "#ec2f1a", null, null, null, null
+      ]
+    },
+    "code" : {
+      "width": 15,
+      "height": 13,
+      "background": null,
+      "pixels": [
+        null, null, null, null, null, null, null, null, null, null, null, null, null, null, null,
+        null, null, null, null, null, null, null, null, null, null, null, null, null, null, null,
+        null, null, null, null, null, null, null, null, null, null, null, null, null, null, null,
+        null, null, null, null, null, null, null, null, "#39ff14", null, null, null, null, null, null,
+        null, null, null, null, "#39ff14", null, null, null, "#39ff14", null, "#39ff14", null, null, null, null,
+        null, null, null, "#39ff14", null, null, null, "#39ff14", null, null, null, "#39ff14", null, null, null,
+        null, null, "#39ff14", null, null, null, null, "#39ff14", null, null, null, null, "#39ff14", null, null,
+        null, null, null, "#39ff14", null, null, null, "#39ff14", null, null, null, "#39ff14", null, null, null,
+        null, null, null, null, "#39ff14", null, "#39ff14", null, null, null, "#39ff14", null, null, null, null,
+        null, null, null, null, null, null, "#39ff14", null, null, null, null, null, null, null, null,
+        null, null, null, null, null, null, null, null, null, null, null, null, null, null, null,
+        null, null, null, null, null, null, null, null, null, null, null, null, null, null, null,
+        null, null, null, null, null, null, null, null, null, null, null, null, null, null, null
+      ]
+    },
+    "passion" : {
+      "width": 15,
+      "height": 10,
+      "background": null,
+      "pixels": [
+        null, null, null, "#ce1126", "#ce1126", "#ce1126", null, null, null, "#ce1126", "#ce1126", "#ce1126", null, null, null,
+        null, null, "#ce1126", "#ce1126", "#ce1126", "#ce1126", "#ce1126", null, "#ce1126", "#ce1126", "#ce1126", "#ce1126", "#ce1126", null, null,
+        null, null, "#ce1126", "#ce1126", "#ce1126", "#ce1126", "#ce1126", "#ce1126", "#ce1126", "#ce1126", "#ce1126", "#ce1126", "#ce1126", null, null,
+        null, null, null, "#ce1126", "#ce1126", "#ce1126", "#ce1126", "#ce1126", "#ce1126", "#ce1126", "#ce1126", "#ce1126", null, null, null,
+        null, null, null, "#ce1126", "#ce1126", "#ce1126", "#ce1126", "#ce1126", "#ce1126", "#ce1126", "#ce1126", "#ce1126", null, null, null,
+        null, null, null, null, "#ce1126", "#ce1126", "#ce1126", "#ce1126", "#ce1126", "#ce1126", "#ce1126", null, null, null, null,
+        null, null, null, null, "#ce1126", "#ce1126", "#ce1126", "#ce1126", "#ce1126", "#ce1126", "#ce1126", null, null, null, null,
+        null, null, null, null, null, "#ce1126", "#ce1126", "#ce1126", "#ce1126", "#ce1126", null, null, null, null, null,
+        null, null, null, null, null, null, "#ce1126", "#ce1126", "#ce1126", null, null, null, null, null, null,
+        null, null, null, null, null, null, null, "#ce1126", null, null, null, null, null, null, null
+      ]
+    }
+  },
+  "header" : {
+    "sprite": "david",
+    "name": "David S Mejia",
+    "job": "Full Stack Web Developer",
+    "location": "Philadelphia, PA",
+    "blurb": "Hi, I'm David. I help make websites and web services. I want to make great experiences that enable people to do greater things."
+  },
+  "content" : [
+    {
+      "sprite": "passion",
+      "title": "Passion",
+      "blurb": "I find myself to be passionate about anything that makes the world a better place. I want to learn and grow and maintain lasting inspiration."
+    },{
+      "sprite": "code",
+      "title": "Stacknostic",
+      "blurb": "Stack agnostic. Its not that I don't have a preference for what Cloud Platform or what JS framework gets used. It's just that they are the tools we use. There is a practical wisdom in not being tied to a particular methodology between projects."
+    },{
+      "sprite": "david",
+      "title": "A E S T H E T I C",
+      "blurb": "Honestly, I think I just like pretty things. And I know that my strengths are not firmly rooted in design. But, whether it's data visualization, the subtle animations expressing pieces of information from an interaction, or the overall composition of an interface. Aknowledging aesthetics provide that little dopamine hit that makes the world seem brighter and more rewarding to particpate in."
+    }
+  ]
+}

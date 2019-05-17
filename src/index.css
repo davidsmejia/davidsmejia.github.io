@@ -1,11 +1,15 @@
-body {
+html, body {
   margin: 0;
   font-family: 'VT323', monospace;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+h1 {
+  font-weight: normal;
+}
+
+p {
+  margin: 0;
+  font-family: 'Scope One', serif;
 }

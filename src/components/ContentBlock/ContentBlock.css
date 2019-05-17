@@ -1,0 +1,20 @@
+.content-block {
+  display: block;
+  padding: 5vh 0;
+}
+
+.content-block-title {
+  font-size: 50px;
+  color: white;
+  padding: 20px 0;
+}
+
+.content-block-blurb {
+  font-size: 25px;
+  color: #e1e1e1;
+  padding: 20px 20px 40px;
+  display: inline-block;
+  max-width: 800px;
+  text-align: justify;
+  text-indent: 50px;
+}

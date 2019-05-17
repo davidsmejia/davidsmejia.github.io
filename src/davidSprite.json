@@ -1,0 +1,22 @@
+{
+  "width": 14,
+  "height": 14,
+  "background": "#b293fb",
+  "pixels": [
+    null, null, null, null, null, null, null, null, null, null, null, null, null, null,
+    null, null, null, null, null, null, null, null, null, null, null, null, null, null,
+    null, null, null, null, null, null, null, null, null, null, null, null, null, null,
+    null, null, null, null, "#4e2d05", "#4e2d05", "#4e2d05", "#4e022d", "#4e022d", null, null, null, null, null,
+    null, null, null, "#4e2d05", "#4e2d05", "#4e2d05", "#4e022d", "#4e022d", null, null, null, null, null, null,
+    null, null, null, "#4e2d05", "#4e2d05", "#cb741b", "#cb741b", "#cb741b", null, null, null, null, null, null,
+    null, null, null, "#4e022d", "#cb741b", "#cb741b", "#cb741b", "#cb741b", null, null, null, null, null, null,
+    null, null, null, "#4e022d", "#cb741b", "#cb741b", "#cb741b", "#cb741b", null, null, null, null, null, null,
+    null, null, null, null, "#cb741b", "#cb741b", "#cb741b", "#cb741b", null, null, null, null, null, null,
+    null, null, null, null, "#cb741b", "#8d500f", "#8d500f", null, null, null, null, null, null, null,
+    null, null, null, "#ec2f1a", "#ec2f1a", "#ec2f1a", "#ec2f1a", "#ec2f1a", "#ec2f1a", null, null, null, null, null,
+    null, null, "#ec2f1a", "#ec2f1a", "#ec2f1a", "#ec2f1a", "#ec2f1a", "#ec2f1a", "#ec2f1a", "#ec2f1a", null, null, null, null,
+    null, null, "#ec2f1a", "#172ffb", "#172ffb", "#172ffb", "#172ffb", "#172ffb", "#172ffb", "#ec2f1a", null, null, null, null,
+    null, null, "#ec2f1a", "#ec2f1a", "#ec2f1a", "#ec2f1a", "#ec2f1a", "#ec2f1a", "#ec2f1a", "#ec2f1a", null, null, null, null,
+    null, null, "#ec2f1a", "#ec2f1a", "#ec2f1a", "#ec2f1a", "#ec2f1a", "#ec2f1a", "#ec2f1a", "#ec2f1a", null, null, null, null
+  ]
+}

@@ -1,0 +1,30 @@
+.App-header {
+  color: white;
+  padding: 25vh 0 10vh;
+}
+
+.App-header h1 {
+  font-size: 35px;
+  margin: 0;
+  padding: 20px 0 0;
+}
+
+.App-header p {
+  margin: 0 auto;
+  max-width: 800px;
+  font-size: 30px;
+  padding: 10px 20px 0;
+}
+
+.App-header p.job {
+  font-size: 50px;
+}
+.App-header p.location {
+  font-size: 12px;
+  padding: 5px 20px 50px;
+}
+.App-header p.blurb {
+  border-top: 5px solid #fff;
+  font-size: 35px;
+  padding: 20px;
+}
