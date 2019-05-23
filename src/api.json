@@ -58,28 +58,61 @@
         null, null, null, null, null, null, "#ce1126", "#ce1126", "#ce1126", null, null, null, null, null, null,
         null, null, null, null, null, null, null, "#ce1126", null, null, null, null, null, null, null
       ]
+    },
+    "aesthetic" : {
+      "width": 15,
+      "height": 16,
+      "background": null,
+      "pixels": [
+        "#5743a4", "#5743a4", "#5743a4", "#5743a4", "#5743a4", "#5743a4", "#5743a4", "#5743a4", "#5743a4", "#5743a4", "#5743a4", "#5743a4", "#5743a4", "#5743a4", "#5743a4",
+        "#5743a4", "#5743a4", "#5743a4", "#5743a4", "#5743a4", "#5743a4", "#bf9cbf", "#bf9cbf", "#bf9cbf", "#5743a4", "#5743a4", "#5743a4", "#5743a4", "#5743a4", "#5743a4",
+        "#5743a4", "#5743a4", "#5743a4", "#5743a4", "#c08eb9", "#c08eb9", "#c08eb9", "#c08eb9", "#c08eb9", "#c08eb9", "#c08eb9", "#5743a4", "#5743a4", "#5743a4", "#5743a4",
+        "#5743a4", "#5743a4", "#5743a4", "#c05c98", "#c05c98", "#c05c98", "#c05c98", "#c05c98", "#c05c98", "#c05c98", "#c05c98", "#c05c98", "#5743a4", "#5743a4", "#5743a4",
+        "#5743a4", "#5743a4", "#5743a4", "#b53d81", "#b53d81", "#b53d81", "#b53d81", "#b53d81", "#b53d81", "#b53d81", "#b53d81", "#b53d81", "#5743a4", "#5743a4", "#5743a4",
+        "#5743a4", "#5743a4", "#5743a4", "#b53d81", "#b53d81", "#b53d81", "#b53d81", "#b53d81", "#b53d81", "#b53d81", "#b53d81", "#b53d81", "#5743a4", "#5743a4", "#5743a4",
+        "#d55085", "#d55085", "#d55085", "#ba3a7b", "#ba3a7b", "#ba3a7b", "#ba3a7b", "#ba3a7b", "#ba3a7b", "#ba3a7b", "#ba3a7b", "#ba3a7b", "#d55085", "#d55085", "#d55085",
+        "#d55085", "#d55085", "#d55085", "#ba3a7b", "#ba3a7b", "#ba3a7b", "#ba3a7b", "#ba3a7b", "#ba3a7b", "#ba3a7b", "#ba3a7b", "#ba3a7b", "#d55085", "#d55085", "#d55085",
+        "#d55085", "#d55085", "#d55085", "#d55085", "#b53d81", "#b53d81", "#b53d81", "#b53d81", "#b53d81", "#b53d81", "#b53d81", "#d55085", "#d55085", "#d55085", "#d55085",
+        "#d55085", "#d55085", "#d55085", "#d55085", "#d55085", "#d55085", "#702641", "#702641", "#702641", "#d55085", "#d55085", "#d55085", "#d55085", "#d55085", "#d55085",
+        "#d55085", "#d55085", "#d55085", "#d55085", "#d55085", "#d55085", "#d55085", "#d55085", "#d55085", "#d55085", "#d55085", "#d55085", "#d55085", "#d55085", "#d55085",
+        "#d55085", "#d55085", "#d55085", "#d55085", "#d55085", "#d55085", "#d55085", "#d55085", "#d55085", "#d55085", "#d55085", "#d55085", "#d55085", "#d55085", "#d55085",
+        "#d55085", "#d55085", "#d55085", "#d55085", "#d55085", "#d55085", "#d55085", "#d55085", "#d55085", "#d55085", "#d55085", "#d55085", "#d55085", "#d55085", "#d55085",
+        "#d55085", "#d55085", "#d55085", "#d55085", "#d55085", "#d55085", "#d55085", "#d55085", "#d55085", "#d55085", "#d55085", "#d55085", "#d55085", "#d55085", "#d55085",
+        "#d55085", "#d55085", "#d55085", "#d55085", "#d55085", "#d55085", "#d55085", "#d55085", "#d55085", "#d55085", "#d55085", "#d55085", "#d55085", "#d55085", "#d55085"
+      ]
+    },
+    "experience" : {
+      "width": 15,
+      "height": 15,
+      "background": null,
+      "pixels": [
+        null, null, null, null, null, null, null, null, null, null, null, null, null, null, null
+      ]
     }
   },
   "header" : {
     "sprite": "david",
     "name": "David S Mejia",
-    "job": "Full Stack Web Developer",
-    "location": "Philadelphia, PA",
-    "blurb": "Hi, I'm David. I help make websites and web services. I want to make great experiences that enable people to do greater things."
+    "job": "Full-Stack Web Developer",
+    "location": "Philadelphia, PA"
   },
   "content" : [
     {
       "sprite": "passion",
-      "title": "Passion",
+      "title": "Passionate",
       "blurb": "I find myself to be passionate about anything that makes the world a better place. I want to learn and grow and maintain lasting inspiration."
     },{
       "sprite": "code",
       "title": "Stacknostic",
       "blurb": "Stack agnostic. Its not that I don't have a preference for what Cloud Platform or what JS framework gets used. It's just that they are the tools we use. There is a practical wisdom in not being tied to a particular methodology between projects."
     },{
-      "sprite": "david",
+      "sprite": "aesthetic",
       "title": "A E S T H E T I C",
-      "blurb": "Honestly, I think I just like pretty things. And I know that my strengths are not firmly rooted in design. But, whether it's data visualization, the subtle animations expressing pieces of information from an interaction, or the overall composition of an interface. Aknowledging aesthetics provide that little dopamine hit that makes the world seem brighter and more rewarding to particpate in."
+      "blurb": "Honestly, I think I just like pretty things. And I know that my strengths are not firmly rooted in design. However, whether it's data visualization, the subtle animations expressing pieces of information from an interaction, or the overall composition of an interface. Aknowledging aesthetics provide that little dopamine hit that makes the world seem brighter and more rewarding to particpate in."
+    },{
+      "sprite": "experience",
+      "title": "Experience",
+      "blurb": "I have built e-commerce solutions, web apps, social media sites, marketing visual experiences, interactive questionnaires, and reporting systems. I have worked directly for or contributed to projects with companies such as HBO, Vogue, Google, Chanel, Kate Spade, Marc Jacobs Fragrance, Skura Style, Greats Brand, A Small World, and MZWallace among others."
     }
   ]
 }

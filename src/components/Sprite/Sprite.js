@@ -8,10 +8,10 @@ class Sprite extends Component {
     this.scale = parseFloat(props.scale) || 1;
     this.scaledWidth = this.scale*this.props.data.width;
     this.scaledHeight = this.scale*this.props.data.height;
+    this.style = this.props.style || '';
   }
 
-  componentDidMount() {
-
+  draw() {
     const { width, background, pixels } = this.props.data;
     const canvas = this.canvasRef.current;
     const ctx = canvas.getContext('2d');
@@ -33,14 +33,19 @@ class Sprite extends Component {
       ctx.fillRect(this.scale*(i%width), this.scale*Math.floor(i/width), this.scale, this.scale);
     }
 
-    ctx.restore();
+    // ctx.restore();
+  }
+
+  componentDidMount() {
+
+    this.draw();
   }
 
   componentDidUpdate() {
   }
 
   render() {
-    return <canvas width={this.scaledWidth} height={this.scaledHeight} ref={this.canvasRef} />;
+    return <canvas className={this.style} width={this.scaledWidth} height={this.scaledHeight} ref={this.canvasRef} />;
   }
 }
 

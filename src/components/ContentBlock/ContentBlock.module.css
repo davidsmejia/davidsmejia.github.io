@@ -1,20 +1,22 @@
-.content-block {
+.block {
   display: block;
   padding: 5vh 0;
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
 }
 
-.content-block-title {
+.title {
   font-size: 50px;
-  color: white;
   padding: 20px 0;
+  display: inline-block;
+  vertical-align: middle;
 }
 
-.content-block-blurb {
+.blurb {
   font-size: 25px;
-  color: #e1e1e1;
   padding: 20px 20px 40px;
   display: inline-block;
   max-width: 800px;
   text-align: justify;
-  text-indent: 50px;
 }

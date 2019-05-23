@@ -1,4 +1,4 @@
-import './ContentBlock.css';
+import styles from './ContentBlock.module.css';
 
 import React, { Component } from 'react';
 
@@ -14,10 +14,9 @@ class ContentBlock extends Component {
 
   render() {
     return (
-      <section className="content-block">
-        <Sprite data={api.sprites[this.content.sprite]} scale="6"/>
-        <p className="content-block-title">{this.content.title}</p>
-        <p className="content-block-blurb">{this.content.blurb}</p>
+      <section className={styles.block}>
+        <h6 className={styles.title}>{this.content.title}</h6>
+        <p className={styles.blurb}>{this.content.blurb}</p>
       </section>
     );
   }

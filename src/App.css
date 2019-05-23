@@ -1,21 +1,11 @@
 .App {
   text-align: center;
-  background-color: #2b313e;
   min-height: 100vh;
   position: relative;
+  overflow: hidden;
 }
 
 .App-wrap {
   position: relative;
   z-index: 2;
-  background-color: rgb(43, 49, 62, .3);
-}
-
-.App-background {
-  position: absolute;
-  z-index: 1;
-  width: auto;
-  height: 100%;
-  top: 0;
-  left: 0;
 }
