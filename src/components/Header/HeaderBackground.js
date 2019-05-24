@@ -10,7 +10,7 @@ class Background extends Component {
     this.lastTime      = 0;
     this.animationTime = 10000;
     this.canvasRef     = React.createRef();
-    this.bubbleCount   = 50;
+    this.bubbleCount   = 25;
     this.bubbleSize    = 1;
     this.bubbles       = [];
     this.scroll        = 100;
@@ -28,13 +28,11 @@ class Background extends Component {
   }
 
   tick(start, end, t) {
-    return start + ( (end - start) * this.easing(t) );
+    return Math.floor(start + ( (end - start) * this.easing(t) ));
   }
 
   tickProperty(obj, prop, t) {
-    const start = obj[prop];
-    const end   = obj[`${prop}_`];
-    return start + ( (end - start) * this.easing(t) );
+    return this.tick(obj[prop], obj[`${prop}_`], t);
   }
 
   tickArray(obj, prop, t) {
@@ -66,13 +64,13 @@ class Background extends Component {
     const animationGenerators  = {
       'x'          : () => this.getRandomInt(0, this.state.size.width),
       'y'          : () => this.getRandomInt(0, this.state.size.height),
-      'line'       : () => this.getRandomInt(1, 100),
-      'size'       : () => this.getRandomInt(this.state.size.width*.05, this.state.size.width*.1),
+      'line'       : () => this.getRandomInt(1, 5),
+      'size'       : () => this.getRandomInt(this.state.size.width*.01, this.state.size.width*.15),
       'stroke'     : () => this.getRandHSLAArray(),
       'fill'       : () => this.getRandHSLAArray(),
       'shadow'     : () => this.getRandHSLAArray(),
-      'shadowBlur' : () => this.getRandomInt(5, 100)
-    }
+      'shadowBlur' : () => this.getRandomInt(5, 10)
+    };
 
     for (var i = 0; i < this.bubbleCount; i++)
     {
@@ -97,7 +95,7 @@ class Background extends Component {
 
   //helpers
   getHSLAFromArray(hslArray) {
-    return `hsl(${Math.floor(hslArray[0])}, ${Math.floor(hslArray[1])}%, ${Math.floor(hslArray[2])}%, .1)`;
+    return `hsl(${hslArray[0]}, ${hslArray[1]}%, ${hslArray[2]}%, .1)`;
   }
 
   getRandHSLAArray() {
@@ -116,41 +114,52 @@ class Background extends Component {
 
   update(time) {
 
-    const ctx = this.canvasRef.current.getContext('2d');
+    const ctx         = this.canvasRef.current.getContext('2d');
     const timeElapsed = time - this.time;
-    const t = timeElapsed/this.animationTime;
-    const scroll = this.getScroll();
-    const offset = Math.floor(this.state.size.height*(.9*scroll));
-    const width = this.state.size.width;
-    const height = this.state.size.height;
+    const t           = timeElapsed/this.animationTime;
+    const scroll      = this.getScroll();
+    const offset      = Math.floor(this.state.size.height*(.8*scroll));
+    const width       = this.state.size.width;
+    const height      = this.state.size.height;
 
     //transform before draw
     ctx.clearRect(0, 0, width, height);
 
     ctx.translate(0, offset);
 
-    this.bubbles.forEach((bubble, index) => {
-
-      ctx.globalCompositeOperation= index % 2 === 0 ? 'destination-over': 'source-over';
-
-      var tickedBubble = this.tickBubble(bubble, t);
-
-      ctx.beginPath();
-
-      ctx.strokeStyle = this.getHSLAFromArray(tickedBubble.stroke);
-      ctx.lineWidth   = tickedBubble.line;
-      ctx.fillStyle   = this.getHSLAFromArray(tickedBubble.fill);
-      ctx.shadowColor = this.getHSLAFromArray(tickedBubble.shadow);
-      ctx.shadowBlur  = tickedBubble.shadowBlur;
-      ctx.arc(
-        Math.floor(tickedBubble.x),
-        Math.floor(tickedBubble.y),
-        Math.floor(tickedBubble.size),
-        0,
-        2 * Math.PI
-      );
-      ctx.fill();
-    });
+    // this.bubbles.forEach((bubble, index) => {
+    //
+    //   ctx.globalCompositeOperation = index % 2 === 0 ? 'destination-over': 'source-over';
+    //
+    //   var tickedBubble = this.tickBubble(bubble, t);
+    //
+    //   if(tickedBubble.size < 0) return;
+    //
+    //   ctx.lineWidth   = tickedBubble.line;
+    //   ctx.strokeStyle = this.getHSLAFromArray(tickedBubble.stroke);
+    //   ctx.fillStyle   = this.getHSLAFromArray(tickedBubble.fill);
+    //   ctx.shadowColor = this.getHSLAFromArray(tickedBubble.shadow);
+    //   ctx.shadowBlur  = tickedBubble.shadowBlur;
+    //
+    //   ctx.beginPath();
+    //
+    //   ctx.save();
+    //   ctx.translate(tickedBubble.x+tickedBubble.size, tickedBubble.y+tickedBubble.size)
+    //   ctx.arc(
+    //     0,
+    //     0,
+    //     Math.floor(tickedBubble.size),
+    //     0,
+    //     2 * Math.PI
+    //   );
+    //
+    //   ctx.closePath();
+    //   ctx.stroke();
+    //   ctx.fill();
+    //
+    //   ctx.restore();
+    //
+    // });
 
     ctx.translate(0, -offset);
 
@@ -159,11 +168,12 @@ class Background extends Component {
       this.initBubbles();
     }
 
-    ctx.fillStyle   = '#fff';
+    ctx.globalCompositeOperation = 'source-over';
+    ctx.fillStyle = '#fff';
     ctx.beginPath();
     ctx.moveTo(0, height);
     ctx.lineTo(width, height);
-    ctx.lineTo(width, height-(Math.floor(height*.1*scroll)));
+    ctx.lineTo(width, height-(Math.floor(height*.2*scroll)));
     ctx.closePath();
     ctx.fill();
 

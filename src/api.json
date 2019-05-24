@@ -21,73 +21,6 @@
         null, null, "#ec2f1a", "#ec2f1a", "#ec2f1a", "#ec2f1a", "#ec2f1a", "#ec2f1a", "#ec2f1a", "#ec2f1a", null, null, null, null,
         null, null, "#ec2f1a", "#ec2f1a", "#ec2f1a", "#ec2f1a", "#ec2f1a", "#ec2f1a", "#ec2f1a", "#ec2f1a", null, null, null, null
       ]
-    },
-    "code" : {
-      "width": 15,
-      "height": 13,
-      "background": null,
-      "pixels": [
-        null, null, null, null, null, null, null, null, null, null, null, null, null, null, null,
-        null, null, null, null, null, null, null, null, null, null, null, null, null, null, null,
-        null, null, null, null, null, null, null, null, null, null, null, null, null, null, null,
-        null, null, null, null, null, null, null, null, "#39ff14", null, null, null, null, null, null,
-        null, null, null, null, "#39ff14", null, null, null, "#39ff14", null, "#39ff14", null, null, null, null,
-        null, null, null, "#39ff14", null, null, null, "#39ff14", null, null, null, "#39ff14", null, null, null,
-        null, null, "#39ff14", null, null, null, null, "#39ff14", null, null, null, null, "#39ff14", null, null,
-        null, null, null, "#39ff14", null, null, null, "#39ff14", null, null, null, "#39ff14", null, null, null,
-        null, null, null, null, "#39ff14", null, "#39ff14", null, null, null, "#39ff14", null, null, null, null,
-        null, null, null, null, null, null, "#39ff14", null, null, null, null, null, null, null, null,
-        null, null, null, null, null, null, null, null, null, null, null, null, null, null, null,
-        null, null, null, null, null, null, null, null, null, null, null, null, null, null, null,
-        null, null, null, null, null, null, null, null, null, null, null, null, null, null, null
-      ]
-    },
-    "passion" : {
-      "width": 15,
-      "height": 10,
-      "background": null,
-      "pixels": [
-        null, null, null, "#ce1126", "#ce1126", "#ce1126", null, null, null, "#ce1126", "#ce1126", "#ce1126", null, null, null,
-        null, null, "#ce1126", "#ce1126", "#ce1126", "#ce1126", "#ce1126", null, "#ce1126", "#ce1126", "#ce1126", "#ce1126", "#ce1126", null, null,
-        null, null, "#ce1126", "#ce1126", "#ce1126", "#ce1126", "#ce1126", "#ce1126", "#ce1126", "#ce1126", "#ce1126", "#ce1126", "#ce1126", null, null,
-        null, null, null, "#ce1126", "#ce1126", "#ce1126", "#ce1126", "#ce1126", "#ce1126", "#ce1126", "#ce1126", "#ce1126", null, null, null,
-        null, null, null, "#ce1126", "#ce1126", "#ce1126", "#ce1126", "#ce1126", "#ce1126", "#ce1126", "#ce1126", "#ce1126", null, null, null,
-        null, null, null, null, "#ce1126", "#ce1126", "#ce1126", "#ce1126", "#ce1126", "#ce1126", "#ce1126", null, null, null, null,
-        null, null, null, null, "#ce1126", "#ce1126", "#ce1126", "#ce1126", "#ce1126", "#ce1126", "#ce1126", null, null, null, null,
-        null, null, null, null, null, "#ce1126", "#ce1126", "#ce1126", "#ce1126", "#ce1126", null, null, null, null, null,
-        null, null, null, null, null, null, "#ce1126", "#ce1126", "#ce1126", null, null, null, null, null, null,
-        null, null, null, null, null, null, null, "#ce1126", null, null, null, null, null, null, null
-      ]
-    },
-    "aesthetic" : {
-      "width": 15,
-      "height": 16,
-      "background": null,
-      "pixels": [
-        "#5743a4", "#5743a4", "#5743a4", "#5743a4", "#5743a4", "#5743a4", "#5743a4", "#5743a4", "#5743a4", "#5743a4", "#5743a4", "#5743a4", "#5743a4", "#5743a4", "#5743a4",
-        "#5743a4", "#5743a4", "#5743a4", "#5743a4", "#5743a4", "#5743a4", "#bf9cbf", "#bf9cbf", "#bf9cbf", "#5743a4", "#5743a4", "#5743a4", "#5743a4", "#5743a4", "#5743a4",
-        "#5743a4", "#5743a4", "#5743a4", "#5743a4", "#c08eb9", "#c08eb9", "#c08eb9", "#c08eb9", "#c08eb9", "#c08eb9", "#c08eb9", "#5743a4", "#5743a4", "#5743a4", "#5743a4",
-        "#5743a4", "#5743a4", "#5743a4", "#c05c98", "#c05c98", "#c05c98", "#c05c98", "#c05c98", "#c05c98", "#c05c98", "#c05c98", "#c05c98", "#5743a4", "#5743a4", "#5743a4",
-        "#5743a4", "#5743a4", "#5743a4", "#b53d81", "#b53d81", "#b53d81", "#b53d81", "#b53d81", "#b53d81", "#b53d81", "#b53d81", "#b53d81", "#5743a4", "#5743a4", "#5743a4",
-        "#5743a4", "#5743a4", "#5743a4", "#b53d81", "#b53d81", "#b53d81", "#b53d81", "#b53d81", "#b53d81", "#b53d81", "#b53d81", "#b53d81", "#5743a4", "#5743a4", "#5743a4",
-        "#d55085", "#d55085", "#d55085", "#ba3a7b", "#ba3a7b", "#ba3a7b", "#ba3a7b", "#ba3a7b", "#ba3a7b", "#ba3a7b", "#ba3a7b", "#ba3a7b", "#d55085", "#d55085", "#d55085",
-        "#d55085", "#d55085", "#d55085", "#ba3a7b", "#ba3a7b", "#ba3a7b", "#ba3a7b", "#ba3a7b", "#ba3a7b", "#ba3a7b", "#ba3a7b", "#ba3a7b", "#d55085", "#d55085", "#d55085",
-        "#d55085", "#d55085", "#d55085", "#d55085", "#b53d81", "#b53d81", "#b53d81", "#b53d81", "#b53d81", "#b53d81", "#b53d81", "#d55085", "#d55085", "#d55085", "#d55085",
-        "#d55085", "#d55085", "#d55085", "#d55085", "#d55085", "#d55085", "#702641", "#702641", "#702641", "#d55085", "#d55085", "#d55085", "#d55085", "#d55085", "#d55085",
-        "#d55085", "#d55085", "#d55085", "#d55085", "#d55085", "#d55085", "#d55085", "#d55085", "#d55085", "#d55085", "#d55085", "#d55085", "#d55085", "#d55085", "#d55085",
-        "#d55085", "#d55085", "#d55085", "#d55085", "#d55085", "#d55085", "#d55085", "#d55085", "#d55085", "#d55085", "#d55085", "#d55085", "#d55085", "#d55085", "#d55085",
-        "#d55085", "#d55085", "#d55085", "#d55085", "#d55085", "#d55085", "#d55085", "#d55085", "#d55085", "#d55085", "#d55085", "#d55085", "#d55085", "#d55085", "#d55085",
-        "#d55085", "#d55085", "#d55085", "#d55085", "#d55085", "#d55085", "#d55085", "#d55085", "#d55085", "#d55085", "#d55085", "#d55085", "#d55085", "#d55085", "#d55085",
-        "#d55085", "#d55085", "#d55085", "#d55085", "#d55085", "#d55085", "#d55085", "#d55085", "#d55085", "#d55085", "#d55085", "#d55085", "#d55085", "#d55085", "#d55085"
-      ]
-    },
-    "experience" : {
-      "width": 15,
-      "height": 15,
-      "background": null,
-      "pixels": [
-        null, null, null, null, null, null, null, null, null, null, null, null, null, null, null
-      ]
     }
   },
   "header" : {
@@ -96,21 +29,259 @@
     "job": "Full-Stack Web Developer",
     "location": "Philadelphia, PA"
   },
+  "skills"  : [
+    {
+      "name"  : "nodejs",
+      "icon"  : "devicon-nodejs-plain",
+      "level" : 3
+    },{
+      "name"  : "laravel",
+      "icon"  : "devicon-laravel-plain",
+      "level" : 3
+    },{
+      "name"  : "linux",
+      "icon"  : "devicon-linux-plain",
+      "level" : 3
+    },{
+      "name": "nodejs",
+      "icon": "devicon-nodejs-plain",
+      "level" : 3
+    },{
+      "name": "aws",
+      "icon": "devicon-amazonwebservices-plain",
+      "level" : 3
+    },{
+      "name": "php",
+      "icon": "devicon-php-plain",
+      "level" : 3
+    },{
+      "name": "vuejs",
+      "icon": "devicon-vuejs-plain",
+      "level" : 3
+    },{
+      "name": "html5",
+      "icon": "devicon-html5-plain",
+      "level" : 3
+    },{
+      "name": "css3",
+      "icon": "devicon-css3-plain",
+      "level" : 3
+    },{
+      "name": "nginx",
+      "icon": "devicon-nginx-original",
+      "level" : 3
+    },{
+      "name": "handlebars",
+      "icon": "devicon-handlebars-plain",
+      "level" : 3
+    },{
+      "name": "vagrant",
+      "icon": "devicon-vagrant-plain",
+      "level" : 3
+    },{
+      "name": "sketch",
+      "icon": "devicon-sketch-line-wordmark",
+      "level" : 3
+    },{
+      "name": "yarn",
+      "icon": "devicon-yarn-plain",
+      "level" : 3
+    },{
+      "name": "npm",
+      "icon": "devicon-npm-original-wordmark",
+      "level" : 3
+    },{
+      "name": "express",
+      "icon": "devicon-express-original",
+      "level" : 3
+    },{
+      "name": "webpack",
+      "icon": "devicon-webpack-plain",
+      "level" : 3
+    },{
+      "name": "ssh",
+      "icon": "devicon-ssh-plain",
+      "level" : 3
+    },{
+      "name": "apple",
+      "icon": "devicon-apple-plain",
+      "level" : 3
+    },{
+      "name": "atom",
+      "icon": "devicon-atom-plain",
+      "level" : 3
+    },{
+      "name": "backbonejs",
+      "icon": "devicon-backbonejs-plain",
+      "level" : 3
+    },{
+      "name": "bootstrap",
+      "icon": "devicon-bootstrap-plain",
+      "level" : 3
+    },{
+      "name": "chrome",
+      "icon": "devicon-chrome-plain",
+      "level" : 3
+    },{
+      "name": "coffeescript",
+      "icon": "devicon-coffeescript-plain",
+      "level" : 3
+    },{
+      "name": "firefox",
+      "icon": "devicon-firefox-plain",
+      "level" : 3
+    },{
+      "name": "git",
+      "icon": "devicon-git-plain",
+      "level" : 3
+    },{
+      "name": "grunt",
+      "icon": "devicon-grunt-plain",
+      "level" : 3
+    },{
+      "name": "gulp",
+      "icon": "devicon-gulp-plain",
+      "level" : 3
+    },{
+      "name": "ie10",
+      "icon": "devicon-ie10-plain",
+      "level" : 3
+    },{
+      "name": "photoshop",
+      "icon": "devicon-photoshop-plain",
+      "level" : 3
+    },{
+      "name": "illustrator",
+      "icon": "devicon-illustrator-plain",
+      "level" : 3
+    },{
+      "name": "javascript",
+      "icon": "devicon-javascript-plain",
+      "level" : 3
+    },{
+      "name": "jquery",
+      "icon": "devicon-jquery-plain",
+      "level" : 3
+    },{
+      "name": "less",
+      "icon": "devicon-less-plain-wordmark",
+      "level" : 3
+    },{
+      "name": "mysql",
+      "icon": "devicon-mysql-plain",
+      "level" : 3
+    },{
+      "name": "postgresql",
+      "icon": "devicon-postgresql-plain",
+      "level" : 3
+    },{
+      "name": "rails",
+      "icon": "devicon-rails-plain",
+      "level" : 3
+    },{
+      "name": "ruby",
+      "icon": "devicon-ruby-plain",
+      "level" : 3
+    },{
+      "name": "sass",
+      "icon": "devicon-sass-plain",
+      "level" : 3
+    },{
+      "name": "symfony",
+      "icon": "devicon-symfony-plain",
+      "level" : 3
+    },{
+      "name": "ubuntu",
+      "icon": "devicon-ubuntu-plain",
+      "level" : 3
+    },{
+      "name": "vim",
+      "icon": "devicon-vim-plain",
+      "level" : 3
+    },{
+      "name": "wordpress",
+      "icon": "devicon-wordpress-plain",
+      "level" : 3
+    },{
+      "name": "python",
+      "icon" :"devicon-python-plain",
+      "level": 2
+    },{
+      "name": "swift",
+      "icon": "devicon-swift-plain",
+      "level": 2
+    },{
+      "name": "stylus",
+      "icon": "devicon-stylus-original",
+      "level": 2
+    },{
+      "name": "jasmine",
+      "icon": "devicon-jasmine-plain",
+      "level": 2
+    },{
+      "name": "django",
+      "icon": "devicon-django-plain",
+      "level": 2
+    },{
+      "name": "cplusplus",
+      "icon": "devicon-cplusplus-plain",
+      "level": 2
+    },{
+      "name": "c",
+      "icon": "devicon-c-plain",
+      "level": 2
+    },{
+      "name": "meteor",
+      "icon": "devicon-meteor-plain",
+      "level": 2
+    },{
+      "name": "heroku",
+      "icon": "devicon-heroku-plain",
+      "level": 2
+    },{
+      "name": "docker",
+      "icon": "devicon-docker-plain",
+      "level": 2
+    },{
+      "name": "angularjs",
+      "icon": "devicon-angularjs-plain",
+      "level": 2
+    },{
+      "name": "bower",
+      "icon": "devicon-bower-line",
+      "level": 2
+    },{
+      "name": "drupal",
+      "icon": "devicon-drupal-plain",
+      "level": 2
+    },{
+      "name": "mongodb",
+      "icon": "devicon-mongodb-plain",
+      "level": 2
+    },{
+      "name": "python",
+      "icon": "devicon-python-plain",
+      "level": 2
+    },{
+      "name": "electron",
+      "icon": "devicon-electron-original",
+      "level": 1
+    },{
+      "name": "go",
+      "icon": "devicon-windows8-plain",
+      "level": 2
+  }],
   "content" : [
     {
-      "sprite": "passion",
       "title": "Passionate",
       "blurb": "I find myself to be passionate about anything that makes the world a better place. I want to learn and grow and maintain lasting inspiration."
     },{
-      "sprite": "code",
       "title": "Stacknostic",
       "blurb": "Stack agnostic. Its not that I don't have a preference for what Cloud Platform or what JS framework gets used. It's just that they are the tools we use. There is a practical wisdom in not being tied to a particular methodology between projects."
     },{
-      "sprite": "aesthetic",
       "title": "A E S T H E T I C",
       "blurb": "Honestly, I think I just like pretty things. And I know that my strengths are not firmly rooted in design. However, whether it's data visualization, the subtle animations expressing pieces of information from an interaction, or the overall composition of an interface. Aknowledging aesthetics provide that little dopamine hit that makes the world seem brighter and more rewarding to particpate in."
     },{
-      "sprite": "experience",
       "title": "Experience",
       "blurb": "I have built e-commerce solutions, web apps, social media sites, marketing visual experiences, interactive questionnaires, and reporting systems. I have worked directly for or contributed to projects with companies such as HBO, Vogue, Google, Chanel, Kate Spade, Marc Jacobs Fragrance, Skura Style, Greats Brand, A Small World, and MZWallace among others."
     }

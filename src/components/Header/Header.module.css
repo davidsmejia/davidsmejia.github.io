@@ -76,7 +76,7 @@
   opacity: 0;
   font-size: 50px;
   margin: 20px auto 0;
-  padding: 0 20px;
+  padding: 0;
   animation: text-animation .5s forwards;
   animation-delay: .5s;
 }
