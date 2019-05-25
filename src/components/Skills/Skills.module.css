@@ -110,6 +110,6 @@
   transition-delay: .2s;
 }
 
-.skill:hover .skill-level .level-indicator {
+.skill:hover .level-indicator {
   opacity: .7;
 }
