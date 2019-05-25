@@ -57,6 +57,7 @@
 .sprite {
   border-radius: 50%;
   animation: sprite-animation .25s linear;
+  border: 5px solid #fff;
 }
 
 .name {

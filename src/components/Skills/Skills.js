@@ -13,7 +13,7 @@ class Skills extends Component {
   createLevel(skill) {
     return [...Array(parseInt(skill.level)).keys()].map((index) => {
       return (
-        <span key={index} className={styles["level-dot"]}></span>
+        <span key={index} className={styles["level-indicator"]}></span>
       )
     });
   }
@@ -23,9 +23,9 @@ class Skills extends Component {
       const level = this.createLevel(skill);
       return (
         <div key={index} className={styles.skill}>
-          <Icon style={styles['skill-icon']} name={skill.icon}/>
+          <Icon style={styles['skill-icon']} svg={skill.svg}/>
           <p className={styles['skill-name']}>{skill.name}</p>
-          <div className="level">
+          <div className={styles['skill-level']}>
             { level }
           </div>
         </div>
@@ -37,7 +37,7 @@ class Skills extends Component {
     const skills = this.createSkills();
     return (
       <section className={styles.skills}>
-        <h2 className={styles["skills-title"]}>Skills</h2>
+        <h2 className={styles["skills-title"]}>Skills &amp; Experience</h2>
         <div className={styles["skills-list"]}>
           { skills }
         </div>

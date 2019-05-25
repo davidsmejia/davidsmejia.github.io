@@ -24,7 +24,6 @@
 .skills-title {
   color: #464f63;
   margin: 25px 0;
-  padding-left: 30px;
   font-size: 25px;
   text-align: left;
   opacity: .7;
@@ -40,6 +39,8 @@
 
 .skill {
   animation: skills-animation 1s forwards;
+  position: relative;
+  padding-bottom: 10px;
 }
 
 @media (max-width: 1000px) {
@@ -51,7 +52,6 @@
 
   .skills-list {
     grid-template-columns: repeat(auto-fill, 20%);
-    grid-gap: 1rem;
   }
 }
 
@@ -64,38 +64,52 @@
 }
 
 .skill-icon {
-  color: #464f63;
+  fill: rgba(70, 79, 99, 0.9);
+  font-size: 60px;
+  transition: fill .2s ease-in-out;
+  display: block;
 }
 
-.skill-language {
-  color: #3391d8;
-}
-
-.skill-platform {
-  color: #3391d8;
-}
-
-.skill-testing {
-  color: #3391d8;
-}
-
-.skill-framework {
-  color: #3391d8;
+.skill-icon:hover {
+  fill: rgba(70, 79, 99, 1);
 }
 
 .skill-name {
   display: block;
-  padding: 10px 0 0px;
+  padding: 2px 0 0;
   font-size: 12px;
   letter-spacing: .1rem;
   color: #464f63;
 }
 
-.level-dot {
-  display: inline-block;
-  width: 3px;
+.skill-level {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding-top: 5px;
+  text-align: left;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 30%);
+  justify-content: space-between;
+}
+
+.level-indicator {
+  transition: opacity .2s ease-in-out;
   height: 3px;
-  margin: 2px;
-  border-radius: 50%;
-  background-color: #225882;
+  transform: skewX(-15deg);
+  background-color: #464f63;
+  opacity: 0;
+  transition-delay: 0;
+}
+
+.level-indicator + .level-indicator {
+  transition-delay: .1s;
+}
+
+.level-indicator + .level-indicator + .level-indicator {
+  transition-delay: .2s;
+}
+
+.skill:hover .skill-level .level-indicator {
+  opacity: .7;
 }

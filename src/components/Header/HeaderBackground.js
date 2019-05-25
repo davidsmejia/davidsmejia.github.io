@@ -115,8 +115,8 @@ class Background extends Component {
   update(time) {
 
     const ctx         = this.canvasRef.current.getContext('2d');
-    const timeElapsed = time - this.time;
-    const t           = timeElapsed/this.animationTime;
+    // const timeElapsed = time - this.time;
+    // const t           = timeElapsed/this.animationTime;
     const scroll      = this.getScroll();
     const offset      = Math.floor(this.state.size.height*(.8*scroll));
     const width       = this.state.size.width;
